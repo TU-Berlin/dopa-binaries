@@ -1,0 +1,10 @@
+java.io.FileNotFoundException: /dopa-vm/stratosphere/bin/../conf/stratosphere-conf.yaml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at eu.stratosphere.nephele.configuration.GlobalConfiguration.loadYAMLResource(GlobalConfiguration.java:328)
+	at eu.stratosphere.nephele.configuration.GlobalConfiguration.loadConfiguration(GlobalConfiguration.java:293)
+	at eu.stratosphere.nephele.jobmanager.JobManager.main(JobManager.java:385)
+Exception in thread "main" java.lang.NullPointerException
+	at eu.stratosphere.nephele.configuration.GlobalConfiguration.loadYAMLResource(GlobalConfiguration.java:365)
+	at eu.stratosphere.nephele.configuration.GlobalConfiguration.loadConfiguration(GlobalConfiguration.java:293)
+	at eu.stratosphere.nephele.jobmanager.JobManager.main(JobManager.java:385)

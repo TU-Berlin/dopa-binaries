@@ -1,0 +1,8 @@
+22:04:26,241 WARN  eu.stratosphere.nephele.configuration.GlobalConfiguration     - Cannot load configuration: unknown element plugins
+22:04:26,394 INFO  eu.stratosphere.pact.client.web.WebInterfaceServer            - Setting up web frontend server, using web-root directory '/dopa-vm/stratosphere/bin/../conf/.././resources/web-docs'.
+22:04:26,395 INFO  eu.stratosphere.pact.client.web.WebInterfaceServer            - Web frontend server will store temporary files in '/tmp', uploaded jobs in '/tmp/pact-jobs', plan-json-dumps in '/tmp/pact-plans'.
+22:04:26,395 INFO  eu.stratosphere.pact.client.web.WebInterfaceServer            - Web-frontend will submit jobs to nephele job-manager on localhost, port 6123.
+22:04:26,529 ERROR eu.stratosphere.pact.client.WebFrontend                       - Unexpected exception: The directory containing the web documents does not exist: /dopa-vm/stratosphere/bin/../conf/.././resources/web-docs
+java.io.FileNotFoundException: The directory containing the web documents does not exist: /dopa-vm/stratosphere/bin/../conf/.././resources/web-docs
+	at eu.stratosphere.pact.client.web.WebInterfaceServer.<init>(WebInterfaceServer.java:147)
+	at eu.stratosphere.pact.client.WebFrontend.main(WebFrontend.java:72)
