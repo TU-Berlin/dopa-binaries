@@ -1,5 +1,0 @@
-22:07:52,146 WARN  eu.stratosphere.nephele.configuration.GlobalConfiguration     - Cannot load configuration: unknown element plugins
-22:07:52,260 INFO  eu.stratosphere.pact.client.web.WebInterfaceServer            - Setting up web frontend server, using web-root directory '/dopa-vm/stratosphere/bin/../conf/.././resources/web-docs'.
-22:07:52,260 INFO  eu.stratosphere.pact.client.web.WebInterfaceServer            - Web frontend server will store temporary files in '/tmp', uploaded jobs in '/tmp/pact-jobs', plan-json-dumps in '/tmp/pact-plans'.
-22:07:52,261 INFO  eu.stratosphere.pact.client.web.WebInterfaceServer            - Web-frontend will submit jobs to nephele job-manager on localhost, port 6123.
-22:07:52,726 INFO  eu.stratosphere.pact.client.WebFrontend                       - Starting web frontend server on port 8080.

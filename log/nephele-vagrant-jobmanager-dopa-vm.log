@@ -1,7 +1,0 @@
-22:04:08,494 WARN  eu.stratosphere.nephele.configuration.GlobalConfiguration     - Cannot load configuration: unknown element plugins
-22:04:08,613 ERROR eu.stratosphere.nephele.jobmanager.JobManager                 - Cannot start discovery manager: eu.stratosphere.nephele.discovery.DiscoveryException: java.net.BindException: Address already in use
-	at eu.stratosphere.nephele.discovery.DiscoveryService.startService(DiscoveryService.java:270)
-	at eu.stratosphere.nephele.discovery.DiscoveryService.startDiscoveryService(DiscoveryService.java:231)
-	at eu.stratosphere.nephele.jobmanager.JobManager.<init>(JobManager.java:190)
-	at eu.stratosphere.nephele.jobmanager.JobManager.main(JobManager.java:388)
-
